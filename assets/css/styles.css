@@ -13,6 +13,12 @@ h1 {
 
 p {
 	font-family: "Mali", cursive;
+	font-size: 2em;
+	font-color: black;
+}
+
+ul {
+	font-family: "Mali", cursive;
 	font-size: 1.2em;
 	font-color: black;
 }
