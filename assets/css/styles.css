@@ -4,17 +4,16 @@ body {
 	background-color: #FADED2;
 }
 h1 {
+color: pink;
   font-family: "Swanky and Moo Moo", cursive;
   font-size: 6em;
-	color: pink;
 	text-align: center;
 	margin: 0 auto;
 }
 
 h2 {
 	font-family: "Swanky and Moo Moo", cursive;
-  font-size: 2.5em;
-	color: black;
+  font-size: 3em;
 	margin: 0 auto;
 }
 
@@ -22,11 +21,9 @@ h2 {
 p {
 	font-family: "Mali", cursive;
 	font-size: 2em;
-	color: black;
 }
 
 ul {
 	font-family: "Mali", cursive;
 	font-size: 1em;
-	color: black;
 }
