@@ -1,5 +1,11 @@
 /* styles.css */
 
-* {
-	font-family: Arial;
+h1 {
+  font-family: "Swanky and Moo Moo", cursive;
+  font-size: 3em;
+}
+
+p {
+	font-family: "Mali", cursive;
+	font-size: 1.2em;
 }
