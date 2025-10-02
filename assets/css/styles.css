@@ -23,9 +23,16 @@ p {
 	color: rgb(85,118,140);
 	font-family: "Mali", cursive;
 	font-size: 1em;
+	text-align: center;
+	margin: 0 auto;
 }
 
 ul {
 	font-family: "Mali", cursive;
 	font-size: .75em;
+}
+
+.Kuromi_witch {
+    width: 100%;
+    text-align: center;
 }
