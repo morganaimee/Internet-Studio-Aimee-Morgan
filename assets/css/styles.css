@@ -4,7 +4,7 @@ body {
 	background-color: #FADED2;
 }
 h1 {
-color: pink;
+color: hotpink;
   font-family: "Swanky and Moo Moo", cursive;
   font-size: 6em;
 	text-align: center;
@@ -13,17 +13,17 @@ color: pink;
 
 h2 {
 	font-family: "Swanky and Moo Moo", cursive;
-  font-size: 3em;
+  font-size: 4em;
 	margin: 0 auto;
 }
 
 
 p {
 	font-family: "Mali", cursive;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 ul {
 	font-family: "Mali", cursive;
-	font-size: 1em;
+	font-size: .75em;
 }
