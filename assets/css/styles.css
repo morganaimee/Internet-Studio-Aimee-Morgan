@@ -1,11 +1,18 @@
 /* styles.css */
 
+body {
+	background-color: royalblue;
+}
 h1 {
   font-family: "Swanky and Moo Moo", cursive;
-  font-size: 3em;
+  font-size: 6em;
+	font-color: babypink;
+	padding-bottom: 10px;
+	margin: 0 auto;
 }
 
 p {
 	font-family: "Mali", cursive;
 	font-size: 1.2em;
+	font-color: black;
 }
