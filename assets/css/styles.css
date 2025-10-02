@@ -1,7 +1,7 @@
 /* styles.css */
 
 body {
-	background-color: brown;
+	background-color: #FADED2;
 }
 h1 {
 color: rgb(184,53,86);
@@ -12,7 +12,7 @@ color: rgb(184,53,86);
 }
 
 h2 {
-	color: #FADED2;
+	color: rgb(132,87,71);
 	font-family: "Swanky and Moo Moo", cursive;
   font-size: 4em;
 	margin: 0 auto;
