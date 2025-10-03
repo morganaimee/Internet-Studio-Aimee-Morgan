@@ -1,6 +1,3 @@
-head {
-	background-color: lightgoldenrodyellow;
-}
 h1, h2{
 	color: darkred;
 	font-family: "Elsie", serif;
@@ -32,9 +29,5 @@ h3 {
 }
 
 body {
-  background-image: url("https://img.freepik.com/free-vector/gray-white-gradient-abstract-background_53876-62619.jpg);
-  background-repeat: repeat-y;
-}
-
-
+ background-image: url(https://t3.ftcdn.net/jpg/13/77/60/82/360_F_1377608215_sjE4igsWU4Qccn4VVOAod7Csi7S6MKB5.jpg);
 }
