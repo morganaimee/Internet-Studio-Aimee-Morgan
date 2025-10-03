@@ -1,0 +1,31 @@
+head {
+	background-color: lightgoldenrodyellow;
+}
+h1, h2{
+	color: darkred;
+	font-family: "Elsie", serif;
+	font-size: 4em;
+}
+
+p,li {
+	font-family: font-family: "Gamja Flower", sans-serif;
+	font-size: 1.5em;
+}
+
+#logo {
+	color: black;
+	font-size: 5em;
+	border: 10px solid white;
+	font-family: "Raleway", sans-serif;
+	margin-top: 25px;
+	margin-bottom: 35px;
+	padding: 20px;
+	text-align: center;
+}
+
+h3 {
+	color: darkred;
+	font-family: "Elsie", serif;
+	font-size: 2em;
+	text-align: center;
+}
