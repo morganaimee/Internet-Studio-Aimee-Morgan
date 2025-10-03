@@ -30,4 +30,7 @@ h3 {
 
 body {
  background-image: url(https://t3.ftcdn.net/jpg/13/77/60/82/360_F_1377608215_sjE4igsWU4Qccn4VVOAod7Csi7S6MKB5.jpg);
+	 background-repeat: repeat-y;
+	opacity: 15%;
+	
 }
