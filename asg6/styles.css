@@ -1,0 +1,59 @@
+body {
+    background-image: url("images/dark-grey.png");
+}
+
+/* I want the background to be red, with the background pattern to still show, but not
+be completely opaque. */
+
+html { 
+      background-color: rgba(139, 0, 0, .80);
+
+}
+/* For h1, h2, and h3, I really liked the Oswald font, and I think the
+progressive size decline of the font serves the webpage well in appearance. */
+
+   
+h1 {
+    color: white;
+    font-size: 2em;
+    font-family: "Oswald", serif;
+
+
+}
+
+h2 {
+    color: white;
+    font-size: 1.75em;
+    font-family: "Oswald", serif;
+}
+
+h3 {
+    color: white;
+    font-size: 1.5em;
+    font-family: "Oswald", serif;
+}
+
+/* I think headers looks best aligned, perhaps this will change if i can get the 
+images to actually show up and align to the left! */
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+p {
+    color: black;
+    background-color: rgba(255, 255, 255, .70);
+    font-size: 1em;
+    font-family: "Quattrocento", serif;
+    text-justify: left;
+    line-height: 150%;
+    border: 20px dashed white;
+    padding: 20px;
+}
+
+.hat { 
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
