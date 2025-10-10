@@ -1,6 +1,6 @@
 body {
     background-image: url("images/dark-grey.png");
-    opacity: 0.5;
+    opacity: 0.75;
 }
 
 /* I want the background to be red, with the background pattern to still show, but not
