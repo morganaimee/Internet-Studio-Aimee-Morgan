@@ -26,8 +26,33 @@
 
 p {
     font-family: 'Afacad Flux';
+    size: 15em;
+    color: lightpink; /* matches the vibe well */
+    font-weight: bold;
+    line-height: 50px;
+    background-color: whitesmoke; /* lets's the text be seen through the background pattern */
+
+
 }
 
 h1, h2, h3 {
      font-family: 'Adamina';
+      size: 22em;
 }
+
+h1 {
+  background-color: lightpink; /* I like the pastel vibes all these colors create */
+}
+
+h2 {
+  background-color: lightyellow;
+}
+
+h3 {
+  background-color: lightblue;
+}
+
+html {
+  background-image: url(images/watercolor.png); /* This background fit the color palette, was not too overwhelming */
+}
+
