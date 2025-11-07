@@ -113,3 +113,33 @@ footer {
   background-color: lightgray;
   color: black;
 }
+
+.button {
+  display: inline-block;
+  font-size: 1em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  background: black
+}
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 14px; 
+  border: 2px solid;
+  border-radius: 6px;
+  box-sizing: border-box; 
+  margin-top: 8px; 
+  margin-bottom: 18px;
+  resize: vertical;
+
+  input[type=submit] {
+  background-color: black
+  color: white;
+  padding: 14px 22px;
+  border: none;
+  border-radius: 6px;
+
+
+
