@@ -1,0 +1,115 @@
+/* playfair-display-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/playfair-display-v40-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* alice-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Alice';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/alice-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+html {font-size: 18px;
+  background-color: lightslategray;
+}
+
+
+}
+
+p {
+  font-size: 1em;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+ {
+  font-family: 'Alice', sans-serif;
+  font-weight: true;
+  line-height: 1.15;
+}
+
+h1,
+.text-size-h1 {
+  font-family:'Playfair Display', sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+  font-size: 3.05em;
+  text-align: center;
+  background-color: darkseagreen;
+}
+
+h2,
+.text-size-h2 { font-size: 2.44em; }
+
+h3,
+.text-size-h3 { font-size: 1.95em; }
+
+h4,
+.text-size-h4 { font-size: 1.56em; }
+
+h5,
+.text-size-h5 { font-size: 1.25em; }
+
+.text-caption { font-size: 0.8em; }
+
+small,
+.text-small {
+  font-size: 0.64em;
+}
+
+ul {
+  padding-left: 1.4em;
+  list-style: square;
+}
+nav {
+  margin-left: 200px; 
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #ffffff;
+  padding: 10px 20px;
+  background: darkblue;
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: inset 0px 1px 0px rgba(255,255,255,0.7);
+  text-shadow:
+    0px -1px 1px rgba(000,000,000,0.2),
+    0px 1px 0px rgba(255,255,255,0.3);
+    float: right;
+}
+
+nav a {
+  transition: transform .5s, background-color 1s ease-in .5s
+}
+
+nav a:hover {
+  background-color: hotpink;
+  transform: scale(1);
+}
+
+footer {
+  display: block;
+  text-align: center;
+  padding: 2px;
+  background-color: lightgray;
+  color: black;
+}
