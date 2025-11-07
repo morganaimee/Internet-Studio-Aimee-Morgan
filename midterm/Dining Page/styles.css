@@ -45,7 +45,7 @@ h1,
   font-family:'Playfair Display', sans-serif;
   font-weight: 700;
   margin-top: 0;
-  font-size: 3.05em;
+  font-size: 4.05em;
   text-align: center;
   background-color: darkseagreen;
 }
@@ -113,3 +113,13 @@ footer {
   background-color: lightgray;
   color: black;
 }
+
+.button {
+  display: inline-block;
+  font-size: 1em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  background: black
+}
+
