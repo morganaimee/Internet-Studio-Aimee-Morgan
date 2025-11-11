@@ -136,4 +136,13 @@ footer {
   color: black;
 }
 
+.button {
+  display: inline-block;
+  font-size: 1em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  background: black
+}
+
 
