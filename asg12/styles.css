@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  border: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  color: gray;
+}
+
+h1 {
+  font-size: 3.815rem;
+}
+
+h2 {
+  font-size: 3.052rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+/* CSS Grid Container */
+.gridContainer {
+  display: grid;
+  padding: 20px;
+  row-gap: 20px;
+  column-gap: 20px;
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-template-rows: repeat(10, 300px);
+  padding: 10px;
+      justify-content: center;
+}
+
+
+
+/* CSS Grid Items */
+.box {
+  background-color: pink;
+  color: black;
+  border-radius: 5px;
+  border: 4px gray solid;
+}
