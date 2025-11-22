@@ -1,26 +1,102 @@
+/* marcellus-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Marcellus';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/marcellus-v14-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* dm-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/dm-sans-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+
+html {
+  font-size: 16px;
+    background-image: url('images/shine.svg');
+    background-repeat: no-repeat;
+  
+}
+
+
 body {
-  margin: 0;
-  border: 0;
-  font-family: Helvetica, Arial, sans-serif;
-  color: gray;
-}
-
-h1 {
-  font-size: 3.815rem;
-}
-
-h2 {
-  font-size: 3.052rem;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: false;
+  line-height: 1.65;
+  color: black;
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1em;
+  font-family: 'DM Sans';
+  line-height: 20px;
+
+}
+
+div {
+  font-family: 'DM Sans';
+  padding: 5px;
 }
 
 h1,
-h2 {
-  text-align: center;
+h2,
+h3,
+h4,
+h5 {
+  font-weight: true;
+  line-height: 1.15;
 }
+
+h1 {
+ text-align: center;
+ padding: 20px;
+}
+
+h1,
+.text-size-h1 {
+  font-family: 'Marcellus', sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+  font-size: 3.05em;
+}
+
+h2,
+.text-size-h2 { font-size: 2.44em; }
+
+h3,
+.text-size-h3 { font-size: 1.95em; }
+
+h4,
+.text-size-h4 { font-size: 1.56em; }
+
+h5,
+.text-size-h5 { font-size: 1.25em; }
+
+.text-caption { font-size: 0.8em; }
+
+small,
+.text-small {
+  font-size: 0.64em;
+}
+              
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 15%;
+  object-fit: cover; 
+
+}
+
+
+
+
 
 /* CSS Grid Container */
 .gridContainer {
@@ -28,8 +104,8 @@ h2 {
   padding: 20px;
   row-gap: 20px;
   column-gap: 20px;
-  grid-template-columns: repeat(auto-fit, 300px);
-  grid-template-rows: repeat(10, 300px);
+  grid-template-columns: repeat(auto-fit, 400px);
+  grid-template-rows: repeat(10, 400px);
   padding: 10px;
       justify-content: center;
 }
