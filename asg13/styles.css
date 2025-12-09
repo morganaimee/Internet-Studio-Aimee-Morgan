@@ -1,0 +1,135 @@
+/* marcellus-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Marcellus';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/marcellus-v14-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* dm-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/dm-sans-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+html {
+  background-color: lightblue;
+  background-image: url('images/circle.png');
+ background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+   background-blend-mode: multiply;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: false;
+  line-height: 1.65;
+  color: black;
+}
+
+
+#changecolor {
+  color: #E398AE;
+  background-color: #353C53;
+  font-weight: bold;
+  border-radius: 40px;
+  padding: 15px;
+   border: 4px #E398AE solid;
+
+
+}
+
+p {
+  font-size: 1em;
+  font-family: 'DM Sans';
+  line-height: 30px;
+  padding-bottom: 20px;
+
+}
+
+div {
+  font-family: 'DM Sans';
+  padding: 5px;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: true;
+  line-height: 1.15;
+}
+
+h1 {
+ text-align: center;
+ padding: 30px 20px 20px 10px;
+ color: whitesmoke;
+
+}
+
+h1,
+.text-size-h1 {
+  font-family: 'Marcellus', sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+  font-size: 6.05em;
+  text-shadow: 4px 4px black;
+  text-transform: uppercase;
+
+}
+
+h2,
+.text-size-h2 { font-size: 2.44em; }
+
+h3,
+.text-size-h3 { font-size: 1.95em; }
+
+h4,
+.text-size-h4 { font-size: 1.56em; }
+
+h5,
+.text-size-h5 { font-size: 1.25em; }
+
+.text-caption { font-size: 0.8em; }
+
+small,
+.text-small {
+  font-size: 0.64em;
+}
+     
+     /* CSS Grid Container */
+.gridContainer {
+  display: grid;
+  padding: 40px;
+  row-gap: 50px;
+  column-gap: 20px;
+  grid-template-columns: repeat(auto-fit, 950px);
+  grid-template-rows: repeat(auto-fit, 600px);
+  justify-content: center;
+}
+
+.gridContainer img {
+ float: right;
+ padding: 20px 50px 20px 20px;
+}
+
+
+/* CSS Grid Items */
+.box {
+  background-color: #97A5ED;
+  color: black;
+  border-radius: 10px;
+  border: 4px #424691 solid;
+}
+
+
